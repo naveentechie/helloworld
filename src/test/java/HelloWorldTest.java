@@ -22,10 +22,12 @@ public class HelloWorldTest {
    }
    
    @Test
-   public void testHelloTeam() 
+   public void testTeam() 
    {
-      assertEquals(h.getName(),"");
-      assertEquals(h.getMessage(),"Team!");
+	   h.setName("Team");
+	   assertEquals(h.getName(),"Team");
+	   
+      assertEquals(h.getMessage(),"Hello Team!");
    }
 	
    @Test
