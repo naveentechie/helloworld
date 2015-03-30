@@ -20,6 +20,13 @@ public class HelloWorldTest {
       assertEquals(h.getName(),"");
       assertEquals(h.getMessage(),"Hello, World!");
    }
+   
+   @Test
+   public void testHelloTeam() 
+   {
+      assertEquals(h.getName(),"");
+      assertEquals(h.getMessage(),"Team!");
+   }
 	
    @Test
    public void testHelloWorld() 
